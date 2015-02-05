@@ -56,8 +56,7 @@ func main(){
 
 	http.Handle("/sloths", sleepHandler)
 	http.Handle("/sloths2", sleepConstructor(slothHandler))
-	http.Handle("/sloths3",
-				alice.New(sleepConstructor, teaConstructor).Then(slothHandler))
+	http.Handle("/sloths3", alice.New(sleepConstructor, teaConstructor).Then(slothHandler))
 
 
 
