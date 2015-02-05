@@ -1,0 +1,11 @@
+{
+  "name": "gorilla-tutorial-part-2-express",
+  "version": "0.0.1",
+  "license":"MIT",
+  "description": "The package.json file for the Express implementation of the examples in my Gorilla tutorial",
+  "author": "&y Haskell",
+  "dependencies": {
+    "express":"4.10.6",
+    "morgan":"1.5.1"
+  }
+}
